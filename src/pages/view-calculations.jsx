@@ -16,7 +16,7 @@ import { monthArray } from "../utils/helper";
 
 const ViewCalculations = () => {
   let navigate = useNavigate();
-  const [status, setStatus] = useState(STATUSES.IDLE);
+  const [status, setStatus] = useState(STATUSES.LOADING);
   const [allRates, setAllRates] = useState([]);
   const [currMonthRates, setCurrMonthRates] = useState(0);
   const [prevMonthRates, setPrevMonthRates] = useState(0);

@@ -8,7 +8,7 @@ import { STATUSES } from "../services/requests";
 
 const Profile = () => {
   const [user, setUser] = useState(null);
-  const [status, setStatus] = useState(STATUSES.IDLE);
+  const [status, setStatus] = useState(STATUSES.LOADING);
   let navigate = useNavigate();
 
   const getUserInfo = async () => {
